@@ -6,7 +6,7 @@
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <mapping-file>META-INF/asset/asset_orm.xml</mapping-file>
         <properties>
-            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.cache.provider_class" value="net.sf.ehcache.hibernate.SingletonEhCacheProvider"/>
             <property name="hibernate.cache.use_second_level_cache" value="true"/>
             <property name="hibernate.generate_statistics" value="true"/>
